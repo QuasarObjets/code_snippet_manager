@@ -1,0 +1,20 @@
+{
+  "name": "next-app",
+  "version": "1.0.0",
+  "description": "Aplicación Next.js para almacenar, organizar y compartir fragmentos de código",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/react": "^17.0.38",
+    "typescript": "^4.5.4"
+  }
+}

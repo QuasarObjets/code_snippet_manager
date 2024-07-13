@@ -1,0 +1,42 @@
+// File: /mi-app-codigo/next-app/src/prisma/schema.prisma
+
+// Este archivo contiene el esquema de la base de datos utilizando Prisma.
+// Puedes definir tus modelos y relaciones aquí.
+
+// Ejemplo de esquema de base de datos:
+
+// model User {
+//   id        Int      @id @default(autoincrement())
+//   name      String
+//   email     String   @unique
+//   createdAt DateTime @default(now())
+//   updatedAt DateTime @updatedAt
+// }
+
+// model Post {
+//   id        Int      @id @default(autoincrement())
+//   title     String
+//   content   String
+//   createdAt DateTime @default(now())
+//   updatedAt DateTime @updatedAt
+//   userId    Int
+//   user      User     @relation(fields: [userId], references: [id])
+// }
+
+// model Comment {
+//   id        Int      @id @default(autoincrement())
+//   content   String
+//   createdAt DateTime @default(now())
+//   updatedAt DateTime @updatedAt
+//   userId    Int
+//   user      User     @relation(fields: [userId], references: [id])
+//   postId    Int
+//   post      Post     @relation(fields: [postId], references: [id])
+// }
+
+// Puedes agregar más modelos y relaciones según tus necesidades.
+
+// Para más información sobre cómo definir el esquema de la base de datos con Prisma, consulta la documentación oficial: https://www.prisma.io/docs/concepts/components/prisma-schema
+
+// Este archivo es parte de la carpeta "prisma" en la estructura del proyecto Next.js.
+// Para más información sobre la estructura del proyecto, consulta el archivo README.md en la raíz del proyecto.
